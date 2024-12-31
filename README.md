@@ -1,49 +1,66 @@
-# Crypto Trading Bot
+# Crypto Trading Bot 🤖💹
 
-## 🤖 Autonomous AI-Powered Cryptocurrency Trading System
+## Overview
 
-Autonomous AI-Powered Crypto Trading Bot Advanced machine learning trading system for cryptocurrency markets Features: - Multi-exchange support - AI-driven trading strategies - Risk management - Open-source trading algorithms
+Autonomous AI-Powered Cryptocurrency Trading System designed for advanced algorithmic trading across multiple exchanges.
 
+### 🚀 Key Features
 
-### Features
-- Advanced Machine Learning Models
+- AI-Driven Trading Strategies
 - Multi-Exchange Support
-- Intelligent Risk Management
+- Advanced Risk Management
+- Machine Learning Price Prediction
 - Modular Architecture
 
-### Installation
+### 🛠 Prerequisites
+
+- Python 3.9+
+- Virtual Environment
+- Binance API Key (optional)
+
+### 🔧 Installation
+
+1. Clone the Repository
+
 ```bash
 git clone https://github.com/bdnhost/crypto_trading_bot.git
 cd crypto_trading_bot
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+
+Create Virtual Environment
+
+bashCopypython3 -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+Install Dependencies
+
+bashCopypip install -r requirements.txt
+
 Configuration
-Edit config/settings.yaml with your API keys and trading preferences
-Usage
+
+
+Rename config/settings.yaml.example to config/settings.yaml
+Add your Binance API credentials
+
+🚀 Usage
 bashCopypython main.py
-Contributing
+📊 Trading Strategies
 
-Fork the project
-Create your feature branch
-Commit changes
-Push to the branch
-Open a Pull Request
+Machine Learning Prediction
+Multi-Indicator Analysis
+Risk-Adjusted Trading
 
-Copy
-### .gitignore (Python)
-Byte-compiled / optimized / DLL files
-pycache/
-*.py[cod]
-*$py.class
-Virtual Environment
-venv/
-env/
-.env
-IDE
-.vscode/
-.idea/
-Logs
-*.log
-API Keys (NEVER commit!)
-config/settings.yaml
+🤝 Contributing
+
+Fork the Project
+Create Feature Branch
+Commit Changes
+Push to Branch
+Open Pull Request
+
+📜 License
+MIT License - See LICENSE file for details
+🛡️ Disclaimer
+Use at your own risk. Not financial advice.
+💡 Support
+Open an issue for bug reports or feature requests.
+```
