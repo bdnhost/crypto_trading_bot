@@ -1,0 +1,19 @@
+binance:
+  api_key: YOUR_API_KEY
+  secret_key: YOUR_SECRET_KEY
+
+trading:
+  symbols: 
+    - BTCUSDT
+    - ETHUSDT
+  initial_balance: 1000
+  max_trade_percentage: 10
+
+ml_model:
+  hidden_layers: 3
+  learning_rate: 0.001
+  batch_size: 32
+
+risk_management:
+  stop_loss_percentage: 2
+  take_profit_percentage: 5
